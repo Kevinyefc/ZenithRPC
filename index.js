@@ -59,16 +59,16 @@ client.on('ready', async () => {
       .setApplicationId('Application-ID') // Please replace all values to your own. If it seems to say null then you could easily replace it with 'text/image-value' 
       .setType('STREAMING') // Playing, Streaming, Watching, Listening, Competing 
       .setURL('https://twitch.tv/zensware')
-      .setState('State')
-      .setName('Name')
-      .setDetails('Details')
+      .setState('Community Mods Gta SA-MP')
+      .setName('𝙳𝚒𝚜𝚌𝚘𝚛𝚍 𝙰𝚗𝚍 𝚈𝚘𝚞𝚃𝚞𝚋𝚎')
+      .setDetails('House Mojarela')
       .setStartTimestamp(Date.now())
-      .setAssetsLargeImage('large-image-url')
-      .setAssetsLargeText('large-image-text')
-      .setAssetsSmallImage('small-image-url')
+      .setAssetsLargeImage('https://media.discordapp.net/attachments/1164626042045087804/1183866510331093153/tumblr_ne5u9nuby21secagoo1_1280.gif?ex=6589e49b&is=65776f9b&hm=bf12a47618627da70ff0978a41214c542057d2ef9b1ab1995d88e79d3826d934&')
+      .setAssetsLargeText('Join Here')
+      .setAssetsSmallImage('https://media.discordapp.net/attachments/1164626042045087804/1183853795260768266/5G4r.gif?ex=6589d8c3&is=657763c3&hm=a958b558f36d7faf4346bd08b757b769dd0020e7bd86f60be976996b771913c0&')
       .setAssetsSmallText('small-image-text')
-      .addButton('Github Repo', 'https://github.com/zensware/ZenithRPC')
-      .addButton('Discord', 'https://discord.gg/stWgVnBgHq');
+      .addButton('𝙳𝚒𝚜𝚌𝚘𝚛𝚍', 'https://discord.com/invite/C2v5hFvTsw')
+      .addButton('𝚈𝚘𝚞𝚃𝚞𝚋𝚎', 'https://youtube.com/@kepinn999?si=zeWX870jwWVtVN6j');
     client.user.setActivity(r);
   };
 
